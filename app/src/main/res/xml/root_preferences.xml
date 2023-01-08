@@ -27,6 +27,8 @@
             android:summary="Mahmut Alperen Ünal"
             app:singleLineTitle="true"
             android:focusable="false">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/mahmutaunal" />
         </Preference>
 
     </PreferenceCategory>
