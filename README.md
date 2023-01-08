@@ -47,6 +47,9 @@ width="200"
 [<img src="/readme/Screenshot_20230105_110017.png" align="left"
 width="200"
     hspace="10" vspace="10">](/readme/Screenshot_20230105_110017.png)
+[<img src="/readme/Screenshot_20230105_145000.png" align="left"
+width="200"
+    hspace="10" vspace="10">](/readme/Screenshot_20230105_145000.png)
 
 ## Permissions
 
