@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DenTech</string>
+    <string name="login_text">Giriş Yap</string>
+    <string name="password_text">Şifre</string>
+    <string name="username_text">Kullanıcı Adı</string>
+    <string name="welcome_text">Hoş Geldiniz</string>
+    <string name="signing_in_text">Giriş Yapılıyor...</string>
+    <string name="ok_text">Tamam</string>
+    <string name="no_internet_connection_title_text">İnternet Bağlantısı Yok</string>
+    <string name="no_internet_connection_description_text">Lütfen internet bağlantınızı kontrol edin.</string>
+    <string name="not_left_blank_text">Bu alan boş bırakılamaz!</string>
+    <string name="operation_failed_text">İşlem Başarısız!</string>
+    <string name="logged_text">Giriş Yapıldı!</string>
+    <string name="enter_username_text">Lütfen Kullanıcı Adı Girin!</string>
+    <string name="enter_password_text">Lütfen Şifre Girin!</string>
+    <string name="barcode_text">Barcode</string>
+    <string name="permission_denied_text">İzin Verilmedi!</string>
+    <string name="close_app_text">Uygulamayı Kapat</string>
+    <string name="close_app_description_text">Uygulamayı kapatmak istediğinizden emin misiniz?</string>
+    <string name="cancel_text">İptal</string>
+    <string name="close_text">Kapat</string>
+    <string name="press_back_again_text">Çıkış yapmak için lütfen tekrar geri tuşuna tıklayın!</string>
+    <string name="confirm_text">Onayla</string>
+    <string name="version_text">Versiyon</string>
+    <string name="sayimNo_text">Sayım Numarası</string>
+    <string name="barcodeID_text">Malzeme Barkod</string>
+    <string name="locationID_text">Lokasyon Barkod</string>
+    <string name="amount_text">Miktar</string>
+    <string name="sayimRapor_text">Sayım Raporlama</string>
+    <string name="add_text">Ekle</string>
+    <string name="cancel_title_text">Değişiklikleri İptal Et</string>
+    <string name="cancel_description_text">Ana menüye dönerseniz yaptığınız değişiklikler silinecektir. Ana menüye dönmek istiyor musunuz?</string>
+    <string name="main_menu_text">Ana Menü</string>
+    <string name="fill_all_blank_text">Lütfen Tüm Alanları Doldurun!</string>
+    <string name="compulsory_text">Zorunlu</string>
+    <string name="saved_text">Kaydedildi!</string>
+    <string name="number_text">100</string>
+    <string name="edit_text">Düzenle</string>
+    <string name="delete_text">Sil</string>
+    <string name="delete_description_text">Veriyi silmek istediğinizden emin misiniz?</string>
+    <string name="deleted_text">Veri Silindi!</string>
+    <string name="date_text">Tarih</string>
+    <string name="wrong_user_text">Hatalı Giriş!</string>
+    <string name="wrong_user_description_text">Kullanıcı adınız veya şifreniz hatalı. Lütfen tekrar deneyin.</string>
+    <string name="list_text">Liste</string>
+    <string name="logged_out_text">Çıkış Yapıldı!</string>
+    <string name="lotBatchNo_text">Lot Batch Numarası</string>
+    <string name="configuraitonNo_text">Konfigürasyon Numarası</string>
+    <string name="serialNo_text">Seri Numarası</string>
+    <string name="wrong_text">Hatalı!</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="logout_text">Çıkış Yap</string>
+    <string name="about_text">Hakkında</string>
+    <string name="profile_text">Profil</string>
+    <string name="all_transactions_text">Tüm İşlemler</string>
+    <string name="logout_description_text">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="existing_text">Çıkış Yapılıyor...</string>
+    <string name="depo_text">Depo</string>
+    <string name="settings_text">Ayarlar</string>
+    <string name="theme_text">Tema</string>
+    <string name="app_theme_text">Uygulama Teması</string>
+    <string name="light_text">Açık</string>
+    <string name="dark_text">Koyu</string>
+    <string name="system_theme_text">Sistem Teması</string>
+    <string name="app_theme_description_text">Uygulama temasını seçiniz.</string>
+    <string name="stokSorgu_text">Stok Sorgulama</string>
+    <string name="apply_text">Uygula</string>
+    <string name="sorgula_text">Sorgula</string>
+    <string name="querying_text">Sorgulanıyor...</string>
+    <string name="no_data_text">Veri Bulunamadı!</string>
+    <string name="app_text">Uygulama</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="little_text">Küçük</string>
+    <string name="normal_text">Normal</string>
+    <string name="big_text">Büyük</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="loading_text">Yükleniyor...</string>
+    <string name="text_size_text">Metin Boyutu</string>
+    <string name="update_text">Güncelle</string>
+    <string name="update_description_text">Uygulamanız güncel değil. Uygulamayı kullanabilmek için lütfen güncelleyin.</string>
+</resources>

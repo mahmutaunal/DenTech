@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/sayim_add_frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    tools:context=".modules.sayimraporlama.SayimAddFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:id="@+id/sayim_add_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sayim_add_sayimNo_editTextLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="@string/sayimNo_text"
+                android:importantForAutofill="no"
+                app:errorTextColor="@color/red"
+                app:boxBackgroundColor="@color/edittext_color"
+                app:boxStrokeColor="@color/dener_red"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/dener_red"
+                app:startIconDrawable="@drawable/ic_assignment"
+                app:startIconTint="@color/dener_red">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sayim_add_sayimNo_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:inputType="number"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="30dp">
+
+                <ImageButton
+                    android:id="@+id/sayim_add_materialBarcode_imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_image_button"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:src="@drawable/ic_camera"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/sayim_add_materialBarcode_editTextLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:hint="@string/barcodeID_text"
+                    android:importantForAutofill="no"
+                    app:errorTextColor="@color/red"
+                    app:boxBackgroundColor="@color/edittext_color"
+                    app:boxStrokeColor="@color/dener_red"
+                    app:endIconMode="custom"
+                    app:endIconDrawable="@drawable/ic_check"
+                    app:hintTextColor="@color/dener_red"
+                    app:startIconDrawable="@drawable/ic_qr_code_scanner"
+                    app:startIconTint="@color/dener_red">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/sayim_add_materialBarcode_editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa"
+                        android:inputType="number"
+                        android:textColor="?android:attr/textColorPrimary"
+                        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sayim_add_lotBatchNo_editTextLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/lotBatchNo_text"
+                android:importantForAutofill="no"
+                android:visibility="gone"
+                app:errorTextColor="@color/red"
+                app:boxBackgroundColor="@color/edittext_color"
+                app:boxStrokeColor="@color/dener_red"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/dener_red"
+                app:startIconDrawable="@drawable/ic_assignment"
+                app:startIconTint="@color/dener_red">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sayim_add_lotBatchNo_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:inputType="number"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sayim_add_configurationNo_editTextLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/configuraitonNo_text"
+                android:importantForAutofill="no"
+                android:visibility="gone"
+                app:errorTextColor="@color/red"
+                app:boxBackgroundColor="@color/edittext_color"
+                app:boxStrokeColor="@color/dener_red"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/dener_red"
+                app:startIconDrawable="@drawable/ic_assignment"
+                app:startIconTint="@color/dener_red">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sayim_add_configurationNo_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:inputType="number"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sayim_add_serialNo_editTextLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/serialNo_text"
+                android:importantForAutofill="no"
+                android:visibility="gone"
+                app:errorTextColor="@color/red"
+                app:boxBackgroundColor="@color/edittext_color"
+                app:boxStrokeColor="@color/dener_red"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/dener_red"
+                app:startIconDrawable="@drawable/ic_assignment"
+                app:startIconTint="@color/dener_red">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sayim_add_serialNo_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:inputType="number"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="30dp">
+
+                <ImageButton
+                    android:id="@+id/sayim_add_locationBarcode_imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_image_button"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:src="@drawable/ic_camera"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/sayim_add_locationBarcode_editTextLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:hint="@string/locationID_text"
+                    android:importantForAutofill="no"
+                    app:errorTextColor="@color/red"
+                    app:boxBackgroundColor="@color/edittext_color"
+                    app:boxStrokeColor="@color/dener_red"
+                    app:endIconMode="clear_text"
+                    app:hintTextColor="@color/dener_red"
+                    app:startIconDrawable="@drawable/ic_qr_code_scanner"
+                    app:startIconTint="@color/dener_red">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/sayim_add_locationBarcode_editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa"
+                        android:inputType="number"
+                        android:textColor="?android:attr/textColorPrimary"
+                        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sayim_add_amount_editTextLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/amount_text"
+                android:importantForAutofill="no"
+                app:errorTextColor="@color/red"
+                app:boxBackgroundColor="@color/edittext_color"
+                app:boxStrokeColor="@color/dener_red"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/dener_red"
+                app:startIconDrawable="@drawable/ic_assignment"
+                app:startIconTint="@color/dener_red">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sayim_add_amount_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:inputType="number"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/sayim_add_bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimary"
+        app:itemIconTint="?android:attr/textColorPrimary"
+        app:itemTextColor="?android:attr/textColorPrimary"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_add" />
+
+</FrameLayout>
