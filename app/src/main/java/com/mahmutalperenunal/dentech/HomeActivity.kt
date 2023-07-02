@@ -69,7 +69,7 @@ class HomeActivity : AppCompatActivity() {
         binding.homeToolbar.title = resources.getString(R.string.app_name)
         setSupportActionBar(binding.homeToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        binding.homeToolbar.navigationIcon = resources.getDrawable(R.drawable.menu_2);
+        binding.homeToolbar.navigationIcon = resources.getDrawable(R.drawable.menu_2)
 
         getAppVersionCodeAndName()
 
